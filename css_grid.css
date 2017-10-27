@@ -1,0 +1,14 @@
+
+.site {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas:
+    "logo logo title title title"
+    "carousel carousel carousel carousel carousel"
+    "content content content hours hours"
+    "location meun daily join join"
+    "find find more more more"
+    "apps apps links links links"
+    "footer footer footer footer footer"
+}
