@@ -1,0 +1,66 @@
+
+.site {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas:
+    "logo logo title title title"
+    "carousel carousel carousel carousel carousel"
+    "content content content hours hours"
+    "location meun daily join join"
+    "find find more more more"
+    "apps apps linksone linkstwo linksthree"
+    "footer footer footer footer footer"
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.title {
+  grid-area: title;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+
+.content{
+  grid-area: content;
+}
+
+.hours {
+  grid-area: hours;
+}
+
+.location {
+  grid-area: location;
+}
+
+.meun {
+  grid-area: meun;
+}
+
+.daily {
+  grid-area: daily;
+}
+
+.join {
+  grid-area: join;
+}
+
+.find {
+  grid-area: find;
+}
+
+.more {
+  grid-area: more;
+}
+
+.apps {
+  grid-area: apps;
+}
+
+.footer {
+  grid-area: footer;
+}
